@@ -29,6 +29,13 @@ switch ($table) {
 
     case 'admin' :
 
+        if($_POST['pw'] == $_POST['pwch']){
+            $data['acc'] = $_POST['acc'];
+            $data['pw'] = $_POST['pw'];
+        }else{
+            alert('請重新確認密碼');
+        }
+
     break;
 
     case 'menu' :
@@ -46,6 +53,7 @@ if(!empty($data)){
     $DB->save($data);
 }
 
-to("../back.php?do=$table");
+// to("../back.php?do=$table");
+header("refresh:0,url='../back.php?do=$table'")
 
 ?>

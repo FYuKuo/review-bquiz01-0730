@@ -32,7 +32,8 @@ foreach ($_POST['id'] as $key => $id) {
             break;
         
             case 'admin' :
-        
+                $data['acc'] = $_POST['acc']["$key"];
+                $data['pw'] = $_POST['pw']["$key"];
             break;
         
             case 'menu' :

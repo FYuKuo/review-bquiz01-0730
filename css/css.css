@@ -178,6 +178,10 @@ input.w-100 {
 	width: 100%;
 }
 
-input.w-90 {
+input.w-90,textarea.w-90 {
 	width: 90%;
+}
+
+textarea.h-50 {
+	height: 50px;
 }

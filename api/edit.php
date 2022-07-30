@@ -46,17 +46,11 @@ foreach ($_POST['id'] as $key => $id) {
         
         }
 
-
-
-
-
-
-
+        $DB->save($data);
 
     }
 
 
-    $DB->save($data);
 }
 
 

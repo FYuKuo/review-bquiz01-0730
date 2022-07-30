@@ -242,4 +242,15 @@ function dd($str){
     print_r($str);
     echo "</pre>";
 }
+
+
+$Title = new DB('title');
+$Ad = new DB('ad');
+$Mvim = new DB('mvim');
+$Image = new DB('image');
+$Total = new DB('total');
+$Bottom = new DB('bottom');
+$News = new DB('news');
+$Admin = new DB('admin');
+$Menu = new DB('menu');
 ?>

@@ -166,7 +166,12 @@ input:focus,button:focus
 
 .page>a {
 	text-decoration:none;
+	color:#0CF;
 	
+}
+
+.nowPage {
+	font-size: 1.5rem;
 }
 
 input.w-100 {

@@ -228,7 +228,9 @@ class STR{
 }
 
 
-
+if(isset($do)){
+    $STR = new STR($do);
+}
 
 
 function to($url){

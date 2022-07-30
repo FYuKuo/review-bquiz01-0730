@@ -185,3 +185,20 @@ input.w-90,textarea.w-90 {
 textarea.h-50 {
 	height: 50px;
 }
+
+.menu_out{
+	position: relative;
+}
+
+.mw {
+	position: absolute;
+	z-index: 100;
+	top: 10px;
+	right: -150px;
+	width: 100%;
+	display: none;
+}
+
+.im>img{
+	border: #FC3 solid 4px;
+}

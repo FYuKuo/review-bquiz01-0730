@@ -26,7 +26,7 @@
                 ?>
                     <tr>
                         <td>
-                            <img src="./img/<?= $row['img'] ?>" alt="" style="width: 150px;height: 103px">
+                            <img src="./img/<?= $row['img'] ?>" alt="" style="width: 100px;height: 68px">
                         </td>
                         <td>
                             <input type="checkbox" name="sh[]" value="<?= $row['id'] ?>" <?= ($row['sh'] == 1) ? 'checked' : '' ?>>
